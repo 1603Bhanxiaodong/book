@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="../fonts/iconfont.css"><link rel="stylesheet" href="../css/search.css"><script src="../js/lib/require.js"></script><script>require(['../js/main'], function() {
+            require(['search'])
+        });</script></head><body><div class="wrap"><header class="header"><a href="javascript:history.back();"><i class="icon iconfont icon-zuojiantou-01"></i></a><div><i class="icon iconfont icon-fangdajing"></i> <input type="text"> <button class="btn-search">搜索</button></div></header><main><div class="search-cunt"></div><div class="history"><p>历史记录</p><div class="history-count"></div></div></main></div><script type="text/x-handlebars-template" class="handle">{{#each ads}}
+        <a href="javascript:;">{{ad_name}}</a> {{/each}}</script><script type="text/x-handlebars-template" class="text"><ul>
+            {{#each this}}
+            <li><span>{{name}}</span></li>
+            {{/each}}
+        </ul></script></body></html>

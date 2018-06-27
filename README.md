@@ -1,2 +1,67 @@
-# book
-第一次的项目
+>书城目录
+-----------------
+
+book
+
+    |———mock
+    |——————data
+    |——————list
+    |——————xianqing
+    |——————data.js
+    |--src
+    |——————css
+    |————————————ommon.css
+    |————————————etail.css
+    |————————————ulu.css
+    |————————————earch.css
+    |————————————tyle.css
+    |————————————wiper.css
+    |————————————ogin.css
+    |————————————earch.css
+    |————————————uedu.css      
+    |——————fonts
+    |——————img
+    |--js
+    |——————conmon
+    |————————————etUrl.js
+    |————————————emp.js
+    |——————detail
+    |————————————index 
+    |——————lib
+    |————————————lexible.js
+    |————————————andlebaes.js
+    |————————————query.base64.js
+    |————————————query.js
+    |————————————query.lazyload.js
+    |————————————equire.js
+    |————————————equire.text.js
+    |————————————wiper.js
+    |————————————epto.js
+    |——————login
+    |————————————login.js
+    |——————mulu
+    |————————————mulu.js
+    |——————page
+    |————————————index.js
+    |——————search
+    |————————————index.js
+    |——————yuedu
+    |————————————index.js
+    |——————main.js
+    |--page
+    |————————————detail.html
+    |————————————login.html
+    |————————————mulu.html
+    |————————————search.html
+    |————————————yuedu.html
+    |--scss
+    |--template
+    |————————————block-list.html
+    |————————————detail.html
+    |————————————index.html
+    |————————————list.html
+    |————————————mulu.html
+    |————————————sexlist.html
+    |————————————zhonban.html
+    |--index.html
+    gulpfile.js
