@@ -1,5 +1,23 @@
+>项目介绍
+-----------------
+    读书在小米 创作无极限 —— 这个口号一直是起点众多玄幻、魔幻、武侠、军文小说作者的创作目标，严谨的写作态度，锲而不舍的求新求变，与书友的直接沟通交流修改，从而起点中文网拥有国内很多具有一流水平的原创作品，使书友得以在第一时间阅读到作者连载的好书佳作。
+
+>技术栈
+-----------------
+gulp + require + handlebars + ES6/7 + ajax + sass + flex + canvas + 懒加载
+
+>项目运行
+
+git clone git@github.com:typeofYh/6bookcity.git
+
+npm install --save-dev
+
+npm run build
+
+
 >书城目录
 -----------------
+
 
 book
 
@@ -10,33 +28,33 @@ book
     |——————data.js
     |--src
     |——————css
-    |————————————ommon.css
-    |————————————etail.css
-    |————————————ulu.css
-    |————————————earch.css
-    |————————————tyle.css
-    |————————————wiper.css
-    |————————————ogin.css
-    |————————————earch.css
-    |————————————uedu.css      
+    |————————————common.css
+    |————————————detail.css
+    |————————————mulu.css
+    |————————————search.css
+    |————————————style.css
+    |————————————swiper.css
+    |————————————login.css
+    |————————————search.css
+    |————————————yuedu.css      
     |——————fonts
     |——————img
     |--js
     |——————conmon
-    |————————————etUrl.js
-    |————————————emp.js
+    |————————————getUrl.js
+    |————————————temp.js
     |——————detail
     |————————————index 
     |——————lib
-    |————————————lexible.js
-    |————————————andlebaes.js
-    |————————————query.base64.js
-    |————————————query.js
-    |————————————query.lazyload.js
-    |————————————equire.js
-    |————————————equire.text.js
-    |————————————wiper.js
-    |————————————epto.js
+    |————————————flexible.js
+    |————————————handlebaes.js
+    |————————————jquery.base64.js
+    |————————————jquery.js
+    |————————————jquery.lazyload.js
+    |————————————require.js
+    |————————————require.text.js
+    |————————————swiper.js
+    |————————————zepto.js
     |——————login
     |————————————login.js
     |——————mulu
